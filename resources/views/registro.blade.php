@@ -44,10 +44,11 @@
 		    <label for="formGroupExampleInput2">Contraseña:</label>
 		    <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese Contraseña">
 		  </div>
-		  			  
-
-		  <button type="submit" class="btn btn-primary">Continuar</button>
+		  
 	</form>
+	<a href="/perfil">
+		<button type="submit" class="btn btn-primary">Continuar</button>
+	</a>
 	</div>
 	    
 @endsection

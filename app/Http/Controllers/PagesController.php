@@ -50,4 +50,14 @@ class PagesController extends Controller
    	{
    		return view('registro');
    	}
+
+   	public function perfil()
+   	{
+   		return view('perfil');
+   	}
+
+   		public function menu()
+   	{
+   		return view('menu');
+   	}
 }
