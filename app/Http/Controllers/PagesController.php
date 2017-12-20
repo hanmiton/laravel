@@ -7,15 +7,33 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
 	    public function home() {
-	    	$links = [
-			'https://github.com/hanmiton/laravel' => 'Código Laravel',
-			'https://laravel.com' => 'Pagina de Laravel'
-		];
+	    	$messages = [
+	    		[
+	    			'id' => 1,
+	    			'content' => 'Primer Comentario',
+	    			'image'=> 'https://www.anipedia.net/imagenes/que-comen-los-perros.jpg',
+	    		],
+	    		[
+	    			'id' => 2,
+	    			'content' => 'Segundo Comentario',
+	    			'image'=> 'https://www.anipedia.net/imagenes/que-comen-los-perros.jpg',
+	    		],
+	    		[
+	    			'id' => 3,
+	    			'content' => 'Tercer Comentario',
+	    			'image'=> 'https://www.anipedia.net/imagenes/que-comen-los-perros.jpg',
+	    		],
+	    		[
+	    			'id' => 4,
+	    			'content' => 'Cuarto Comentario',
+	    			'image'=> 'https://www.anipedia.net/imagenes/que-comen-los-perros.jpg',
+	    		],
+	    	];
 
 	    return view('welcome', [
-	    	'topic' => 'DISEÑO E IMPLEMENTACIÓN DE SISTEMA PARA EL CONTROL DE AGENDAMIENTO E HISTORIAL CLÍNICO DE ANIMALES EN EL CENTRO VETERINARIO SAN MARTÍN',
-	    	'links' => $links,
+	    	'messages' => $messages,
 	    ]);
+	    	
    	}
 
    	public function aboutUs()
