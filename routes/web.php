@@ -22,3 +22,8 @@ Route::get('/registro', 'PagesController@registro');
 Route::get('/perfil', 'PagesController@perfil');
 
 Route::get('/menu', 'PagesController@menu');
+
+Route::get('/citas', 'PagesController@citas');
+
+
+Route::get('/crearcliente', 'PagesController@crearcliente');

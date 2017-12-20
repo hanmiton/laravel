@@ -56,8 +56,18 @@ class PagesController extends Controller
    		return view('perfil');
    	}
 
-   		public function menu()
+   	public function menu()
    	{
    		return view('menu');
+   	}
+
+   	public function citas()
+   	{
+   		return view('citas');
+   	}
+
+   	public function crearcliente()
+   	{
+   		return view('crearcliente');
    	}
 }
