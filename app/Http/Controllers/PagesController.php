@@ -40,4 +40,14 @@ class PagesController extends Controller
    	{
    		return view('about');
    	}
+
+   	public function inicio()
+   	{
+   		return view('inicio');
+   	}
+
+   	public function registro()
+   	{
+   		return view('registro');
+   	}
 }

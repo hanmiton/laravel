@@ -14,3 +14,7 @@
 Route::get('/', 'PagesController@home');
 
 Route::get('/acerca', 'PagesController@aboutUs');
+
+Route::get('/inicio', 'PagesController@inicio');
+
+Route::get('/registro', 'PagesController@registro');

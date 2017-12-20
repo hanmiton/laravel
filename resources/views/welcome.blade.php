@@ -36,45 +36,18 @@
 
 
 
-<section class="cover-1 text-center">
-                <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-                    <div class="container">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbarSupportedContent">
-                            <ul class="navbar-nav mt-2 mt-md-0">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Our Work</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="btn btn-outline-white btn-outline" href="#">Buy Now</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+
                 <div class="cover-container pb-5">
                     <div class="cover-inner container">
-                        <h1 class="jumbotron-heading">Say <em>hello</em> to our <strong>Startup UI Kit</strong></h1>
-                        <p class="lead">A collection of coded HTML and CSS elements to help your build your startup website. Clean design, fully responsive and based on Bootstrap 4.</p>
+                        <h1 class="jumbotron-heading">Centro Veterinario <strong>"SAN MARTIN"</strong></h1>
+                        <p class="lead">Ofrecemos servicos control y peluqueria de animales</p>
                         <p>
-                            <a href="#" class="btn btn-primary btn-lg mb-2 mr-2 ml-2">Main call to action</a>
-                            <a href="#" class="btn btn-outline-white btn-lg mb-2 ml-2 ml-2">Secondary action</a>
+                            <a href="/inicio" class="btn btn-primary btn-lg mb-2 mr-2 ml-2">Inicio Sesión</a>
+                            <a href="/registro" class="btn btn-outline-white btn-lg mb-2 ml-2 ml-2">Registrarse</a>
                         </p>
                     </div>
                 </div>
-            </section>
+            
    <!--         
         <section class="cover-2 text-left">
             <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">

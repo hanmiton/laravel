@@ -84,9 +84,39 @@
                     @endauth
                 </div>
             @endif
-            <div class="container">
-                @yield('content')
-            </div>
+            <section class="cover-1 text-center">
+                <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">"SAN MARTÍN"</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav mt-2 mt-md-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Servicios</a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#">Instalaciones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contactanos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+                        @yield('content')
+                </div>    
+            </section>
+            
            
       <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
